@@ -134,6 +134,9 @@ a, Link, .title {
     border-radius: 3px;
 		padding-top: -30px;
 }
+b {
+	font-weight: 400;
+}
 .center {
 	text-align: center;
 }
