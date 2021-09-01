@@ -29,7 +29,7 @@ The Turner Fenton Debate Society aims to foster a high-impact and supportive env
             <Col sm={8} className="animate0">
               <h5 className="manifesto linkheader">The Application Process</h5>
               <p className="p-manifesto">
-               There are two available positions, the <b>President</b> and <b>Vice President</b>. The first step of the application will be the written part. These will be due on <b>September 6, 2021 at 11:59pm.</b> Following these applications, select individuals will be invited to an interview with our teacher supervisors, where they will ask position-specific questions to aid in their decision. 
+               There are two available positions, the <b>President</b> and <b>Vice President</b>. The first step of the application will be the written part. These will be due on <b>September 10, 2021 at 11:59pm.</b> Following these applications, select individuals will be invited to an interview with our teacher supervisors, where they will ask position-specific questions to aid in their decision. 
               </p>
             </Col>
             <Col sm={2}></Col>
