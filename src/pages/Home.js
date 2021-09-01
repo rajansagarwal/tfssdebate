@@ -9,7 +9,7 @@ export default function Home() {
       <Container>
         <header className="App-header">
           <Col sm={12}>
-            <h2 className="explorehead hey">TFSS Debate Society</h2>
+            <h2 className="explorehead hey">TFSS Debate</h2>
             <p className="center moving">Executive Applications</p>
           </Col>
           <Row>
