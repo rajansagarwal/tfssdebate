@@ -10,6 +10,7 @@ class Debatepath extends Component {
         <div className="debatepath">
         <b className="debatenowhead"><Link to='/'>Debate Now</Link></b><span role="img" aria-label="emoji"> 🎙️</span>
         <p className='yomama'><span className="headlinemeta">Immerse yourself into a LIVE debate with a random person with different views. We have quick facts to support your arguments and a points system to quantify your argumentative skills. </span></p><br/>
+        <br/><div className="headlinemeta">We suggest <Link to="/waitingroom">The Canadian Election</Link></div>
         <Link to="/waitingroom" className="waitingroom">Check Out Live Debates</Link>
     </div>
     );

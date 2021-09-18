@@ -14,7 +14,7 @@ class Points extends Component {
             <CountUp
   start={0}
   end={100000}
-  duration={4000000}
+  duration={3500000}
   separator=" "
   decimals={1}
   decimal="."
