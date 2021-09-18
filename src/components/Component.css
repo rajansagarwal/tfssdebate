@@ -3,7 +3,7 @@ input[type=text]:focus {
   }
 
   .headlinecustom {
-    background: linear-gradient(45deg, rgb(214, 226, 243), #ebcfd3);
+    background: linear-gradient(45deg, rgb(214, 226, 243), #e3ebcf);
     border: 2px;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -14,7 +14,7 @@ input[type=text]:focus {
     border-radius: 20px;
   }
   .headline {
-    background: rgb(224, 216, 216);
+    background: #E2DDDD;
     border: 2px;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -55,7 +55,8 @@ input[type=text]:focus {
 }
 
   .points {
-      font-size: 30px !important;
+      font-size: 25px !important;
+      padding-top: 10px;
   }
 
   .stats {
@@ -81,7 +82,28 @@ input[type=text]:focus {
     color: black;
     border-radius: 20px;
   }
-
+.forecast {
+        background: linear-gradient(45deg, #e4a9c4, #e8ffda);
+        border: 2px;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.4em;
+        
+        color: black;
+        border-radius: 20px;
+}
+.custom {
+    background: linear-gradient(45deg, #bdb6f5, #ffecda);
+    border: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+    color: black;
+    border-radius: 20px;
+}
   .debate1 {
     background: rgb(226, 221, 221);
     border: 2px;

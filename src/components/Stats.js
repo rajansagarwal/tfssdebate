@@ -11,7 +11,7 @@ class Stats extends Component {
       }
     
       min = 1;
-      max = 15;
+      max = 5;
     
       handleClick = () => {
         this.setState({random: this.min + (Math.floor(Math.random() * (this.max - this.min)))});
@@ -20,12 +20,10 @@ class Stats extends Component {
   render() {
     return (
         <div className="stats">
-        <b className="debatenowhead">My Recent Statistics</b><span role="img" aria-label="emoji"> 🎙️</span>        <button onClick={this.handleClick}>Refresh</button>
+        <b className="debatenowhead">My Recent Statistics</b><span role="img" aria-label="emoji"> 📊</span>        <button onClick={this.handleClick}>Refresh</button>
         <p className='yomama'><span className="headlinemeta">
-
-            Recent Debates:<br/>
             <i>11:28am</i> A Discussion About Vaccines<br/>
-            <i>11:28am</i> A Discussion About Vaccines<br/><br/>
+            <i>12:39pm</i> The Canadian Election<br/><br/>
             Net Articles Read: {this.state.random}<br/>
             Reading Time: {2 * this.state.random} mins<br/><br/>
 

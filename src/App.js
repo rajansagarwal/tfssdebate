@@ -6,6 +6,9 @@ import Dashboard from './pages/Dashboard';
 import Article from './pages/Article';
 import Waitingroom from './pages/Waitingroom';
 import Debateroom1 from './pages/Debateroom1';
+import Debateroom2 from './pages/Debateroom2';
+import Debateroom3 from './pages/Debateroom3';
+import Debateroom4 from './pages/Debateroom4';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -31,6 +34,15 @@ function App() {
       </Route>
       <Route path="/room1">
         <Debateroom1/>
+      </Route>
+      <Route path="/room2">
+        <Debateroom2/>
+      </Route>
+      <Route path="/room3">
+        <Debateroom3/>
+      </Route>
+      <Route path="/room4">
+        <Debateroom4/>
       </Route>
     </div>
     </Router>

@@ -150,9 +150,10 @@ b {
 }
 
 a:hover{
-	background-color: #94cef16e;
+	background-color: rgba(43, 82, 255, 0.548);
 transition: all 0.3s ease;
 animation-timing-function: ease;
+color: rgb(230, 230, 230);
 
 }
 
@@ -421,4 +422,12 @@ Subnav {
 		width: 100%;
 		height: 200px;
 	}
+}
+
+.debatebackground {
+	background-color: #f1efef;
+}
+
+.smol {
+	padding-bottom: 13px !important;
 }

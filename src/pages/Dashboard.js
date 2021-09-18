@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-grid-system";
 import Headline from '../components/Headline1';
 import Headline2 from '../components/Headline2';
 import Headline3 from '../components/Headline3';
-import Headline4 from '../components/Headline4';
 import Debatepath from '../components/Debatepath';
-import Points from '../components/Points';
 import Stats from '../components/Stats';
+import Forecast from '../components/Forecast';
+import Custom from '../components/Custom';
 import "../App.css";
 import './pages.css';
 
@@ -18,8 +18,8 @@ export default function Dashboard() {
         <header className="App-header">
           <Row>
               <Col sm={9}>
-              <br/><h2 className="dashhead">Welcome, Rajan</h2><Points/>
-              <br/>
+              <br/><h2 className="dashhead">Welcome, Rajan</h2>
+              Diplomatica is building a world of political scientists.<br/><br/>
               </Col>
               <Col sm={3}>
               
@@ -33,11 +33,8 @@ export default function Dashboard() {
             <Col sm={3} className="">
             <Headline2/>
             </Col>
-            <Col sm={3} className="">
+            <Col sm={6} className="">
             <Headline3/>
-            </Col>
-            <Col sm={3} className="">
-            <Headline4/>
             </Col>
           </Row>
 <br/>
@@ -52,11 +49,12 @@ export default function Dashboard() {
           </Row><br/>
           <Row>
             <Col sm={6} className="">
-            <Debatepath/>
+            <Forecast/>
             </Col>
             <Col sm={6} className="">
-            <Stats/>
+            <Custom/>
             </Col>
+            
             
           </Row>
         </header>
