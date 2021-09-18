@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Component.css";
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
-import { Container, Col, Row } from 'react-grid-system';
+import { Col, Row } from 'react-grid-system';
 
 class Headline3 extends Component {
   render() {
@@ -10,7 +10,7 @@ class Headline3 extends Component {
         <div className="headline">
             <Row>
             <Col sm={2} className="thisoneyuh">
-                    <img src="https://cloud-lmslzrlul-hack-club-bot.vercel.app/0img_0153_2.jpg" width="60px" style={{borderRadius: '50%'}}/>
+                    <img src="https://cloud-lmslzrlul-hack-club-bot.vercel.app/0img_0153_2.jpg" alt="profile" width="60px" style={{borderRadius: '50%'}}/>
                 </Col>
                 <Col sm={8}>
         <b><span className="profilename">Your Profile</span></b>

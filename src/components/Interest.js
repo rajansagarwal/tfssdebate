@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Component.css";
-import { Link } from 'react-router-dom';
 import { Container, Col, Row } from 'react-grid-system';
 
 class Interest extends Component {

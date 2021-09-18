@@ -11,7 +11,7 @@ class Profilecard extends Component {
         <div className="headline">
         <Row style={{padding: '10px'}}>
                 <Col sm={3} className="thisoneyuh">
-                    <img src="https://cloud-lmslzrlul-hack-club-bot.vercel.app/0img_0153_2.jpg" width="130px" style={{borderRadius: '50%'}}/>
+                    <img src="https://cloud-lmslzrlul-hack-club-bot.vercel.app/0img_0153_2.jpg" alt="profile" width="130px" style={{borderRadius: '50%'}}/>
                 </Col>
                 <Col sm={8.5}>
                 <b>Rajan Agarwal</b>

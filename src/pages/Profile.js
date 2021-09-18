@@ -1,8 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
-import Headline from '../components/Headline1';
-import Headline2 from '../components/Headline2';
-import Headline3 from '../components/Headline3';
 import Mypoints from '../components/Mypoints';
 import Leaderboard from '../components/Leaderboard';
 import Interest from '../components/Interest';

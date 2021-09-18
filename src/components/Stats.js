@@ -20,7 +20,7 @@ class Stats extends Component {
   render() {
     return (
         <div className="stats">
-        <b className="debatenowhead" onClick={this.handleClick}><a onClick={this.handleClick}><u>My Recent Statistics</u></a></b><span role="img" aria-label="emoji"> 📊</span>       
+        <b className="debatenowhead" onClick={this.handleClick}><a href="diplomatica.vercel.app" onClick={this.handleClick}><u>My Recent Statistics</u></a></b><span role="img" aria-label="emoji"> 📊</span>       
         <p className='yomama'><span className="headlinemeta">
             <i>11:28am</i> A Discussion About Vaccines<br/>
             <i>12:39pm</i> The Canadian Election<br/><br/>
