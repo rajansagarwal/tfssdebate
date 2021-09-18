@@ -12,7 +12,7 @@ class Headline3 extends Component {
             <CountUp
   start={76.2}
   end={100000}
-  duration={3500000}
+  duration={8000000}
   separator=" "
   decimals={1}
   decimal="."

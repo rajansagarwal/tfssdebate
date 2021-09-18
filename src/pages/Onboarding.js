@@ -25,7 +25,7 @@ export default function Onboarding() {
               <h5 className="manifesto linkheader">
               <ol>
                   <li>Read AI summarized articles about current global issues, designed to be easy to read.</li><br/>
-                  <li>Debate against people with opposing interests than you to spark conversation and your inner debator.</li><br/>
+                  <li>Debate against people with opposing interests than you to spark conversation and your inner debater.</li><br/>
                   <li>Compete against your friends by debating, reading articles and taking action within the Diplomatica community</li>
               </ol>
               

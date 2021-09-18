@@ -9,6 +9,7 @@ import Debateroom1 from './pages/Debateroom1';
 import Debateroom2 from './pages/Debateroom2';
 import Debateroom3 from './pages/Debateroom3';
 import Debateroom4 from './pages/Debateroom4';
+import Visualize from './pages/Visualize';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -43,6 +44,9 @@ function App() {
       </Route>
       <Route path="/room4">
         <Debateroom4/>
+      </Route>
+      <Route path="/visualize">
+        <Visualize/>
       </Route>
     </div>
     </Router>

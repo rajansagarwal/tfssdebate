@@ -431,3 +431,13 @@ Subnav {
 .smol {
 	padding-bottom: 13px !important;
 }
+
+.myClassname {
+    padding: 0 !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    width: 110% !important;
+    height: 110% !important;
+	margin-top: -10px;
+    margin-left: -25% !important;
+}
