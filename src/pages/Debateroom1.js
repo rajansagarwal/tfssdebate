@@ -1,11 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
-import Headline from '../components/Headline1';
-import Headline2 from '../components/Headline2';
 import { Link } from 'react-router-dom';
-import Headline4 from '../components/Headline4';
-import Debatepath from '../components/Debatepath';
-import Iframe from 'react-iframe'
 import Stats from '../components/Stats';
 import "../App.css";
 import './pages.css';
@@ -28,7 +23,7 @@ export default function Debateroom1() {
 <br/>
           <Row>
             <Col sm={6} className="">
-            <iframe src="https://yep.rajnagrwl.repl.co/" width="100%" height="700px" frameBorder="0"/>
+            <iframe title="chatapp" src="https://yep.rajnagrwl.repl.co/" width="100%" height="700px" frameBorder="0"/>
             </Col>
             <Col sm={6} className="">
             <Stats/>
