@@ -14,16 +14,23 @@ html, body {
   margin: 0;
 	color: black;
 		width: 100vm;
-		  background-color: #f5f1ed;
+		background: #eeebe8;
 
 }
 
+.getready {
+	background: linear-gradient(#D1DBEA, #F7EAEC) !important; 
+}
+
  h5 {
-	 font-weight: 400;
+	 font-weight: 600;
 	 font-size: 35px;
  }
  p {
-	 font-weight: 200;
+	 font-weight: 300;
+ }
+ b {
+	 font-weight: 450 !important;
  }
 
 
@@ -100,7 +107,8 @@ h5 {
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: black;
-	align-items: left;
+
+
 }
 
 .App-link {
@@ -127,18 +135,14 @@ p {
 }
 
 a, Link, .title {
-	text-decoration: none;
-    background-color: #c8deec22;
-		color: white;
-    padding: 0 .3em !important;
-    border-radius: 3px;
-		padding-top: -30px;
+	color: black;
 }
 b {
 	font-weight: 400;
 }
 .center {
 	text-align: center;
+	align-items: center;
 }
 .explorehead {
 	text-align: center;
@@ -146,7 +150,7 @@ b {
 }
 
 a:hover{
-    background: linear-gradient(to top, rgba(240, 188, 75, 0.7) 80%, transparent 40%);
+	background-color: #94cef16e;
 transition: all 0.3s ease;
 animation-timing-function: ease;
 

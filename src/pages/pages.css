@@ -1,0 +1,27 @@
+.alsobutton  {
+    background-color: #4CAF50; /* Green */
+
+}
+
+.debatenowhead {
+    padding-bottom: 0.1em !important;
+}
+
+.meta {
+    font-size: 75%
+}
+input {
+    border: 3px solid rgb(177, 177, 177);
+    height: 40px;
+    width: 700px;
+    font-size: 100%;
+  }
+
+  input[type=text]:focus {
+    color: red;
+    font-size: 100%;
+  }
+  
+.center {
+    align-items: center;
+}

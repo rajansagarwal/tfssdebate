@@ -1,0 +1,95 @@
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  .headlinecustom {
+    background: linear-gradient(45deg, rgb(214, 226, 243), #ebcfd3);
+    border: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+    color: black;
+    border-radius: 20px;
+  }
+  .headline {
+    background: rgb(224, 216, 216);
+    border: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+    color: black;
+    border-radius: 20px;
+  }
+
+  .p-manifesto {
+	line-height: 150%; 
+}
+
+.headlinemeta {
+    font-size: 20px;
+}
+
+.yomama {
+    line-height: 75% !important;
+    font-weight: 400;
+    margin-bottom: -5px;
+    margin-top: 10px;
+    font-size: 40px !important;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  .read {
+      font-size: 20px;
+      line-height: 0 !important;
+  }
+
+  .waitingroom {
+    font-size: 25px;
+}
+
+  .points {
+      font-size: 30px !important;
+  }
+
+  .stats {
+    background: linear-gradient(45deg, #a9c0e4, #daffe3);
+    border: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+    color: black;
+    border-radius: 20px;
+  }
+
+  .debatepath {
+    background: linear-gradient(45deg, #e4caa9, #fcdaff);
+    border: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+    color: black;
+    border-radius: 20px;
+  }
+
+  .debate1 {
+    background: rgb(226, 221, 221);
+    border: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+    color: black;
+    border-radius: 20px;
+  }
