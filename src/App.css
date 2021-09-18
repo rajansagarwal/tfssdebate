@@ -461,3 +461,44 @@ Subnav {
 	padding-top: -20px !important;
 
 }
+
+.debatnowhead:hover {
+	cursor: pointer !important;
+}
+
+.thisoneyuh  {
+	padding-right: 40px !important;
+}
+
+.thisbutton {
+	background-color: #6786be; /* Green */
+	border: none;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 200px;
+	margin-top: 25px !important;
+	margin-bottom: 15px !important;
+	font-weight: 500;
+	font-family: 'Fira Sans', serif;
+	margin-right: 10px;
+}
+
+.leaderboardchild {
+	border: 1px;
+	padding: 0.8em;
+	border-radius: 5px;
+	background: rgb(238, 232, 232);
+	margin-bottom: 15px;
+}
+
+.leaderboardspan {
+	border: 1px;
+	padding: 0.8em;
+	border-radius: 5px;
+	background: rgb(209, 209, 209);
+	margin-bottom: 15px;
+}

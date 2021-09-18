@@ -7,8 +7,8 @@ const texts = [
   "Aloha!",
   "Soo dhawoow,",
   "Hello from the other side~",
-  "नमस्कार,",
-  "സ്വാഗതം,",
+  "Tervetuloa,",
+  "Ciao,",
 ];
 
 class Transition extends Component {
@@ -24,7 +24,7 @@ class Transition extends Component {
         textIndex: this.state.textIndex + 13,
         paragraphIndex: this.state.paragraphIndex + 1,
       });
-    }, 4000);
+    }, 3500);
     setInterval(() => {
       this.setState({
         textFastIndex: this.state.textFastIndex + 1,

@@ -19,12 +19,13 @@ export default function Dashboard() {
         <header className="App-header">
           <Row>
               <Col sm={12}>
-              <br/><h2 className="dashhead"><Transition/></h2>
-              Diplomatica is building a world of political scientists. Care to join?<br/><br/>
+              <br/><h2 className="dashhead" style={{paddingBottom: "0"}}><Transition/></h2>
+              <div style={{paddingTop: '0px', paddingBottom: '25px'}}>Diplomatica is building a world of political scientists. Care to join?</div>
               </Col>
 
-              <br/><br/>
           </Row>
+          <hr className="solid"></hr>
+          <div style={{paddingBottom: '15px', paddingTop: '25px'}}>Global News</div>
           <Row>
             <Col sm={4} className="">
             <Headline/>
@@ -37,6 +38,7 @@ export default function Dashboard() {
             </Col>
           </Row>
 <br/>
+<div style={{paddingBottom: '15px', paddingTop: '20px'}}>Explore the Platform</div>
           <Row>
             <Col sm={6} className="">
             <Debatepath/>
