@@ -441,3 +441,23 @@ Subnav {
 	margin-top: -10px;
     margin-left: -25% !important;
 }
+
+.articletext {
+	font-size: 30px;
+	line-height: 2;
+}
+
+.thisthis {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.metameta {
+	font-size: 24px !important;
+	margin-bottom: 0;
+}
+.read {
+	padding-bottom: -20px;
+	padding-top: -20px !important;
+
+}

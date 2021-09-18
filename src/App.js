@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import Onboarding from './pages/Onboarding';
 import Dashboard from './pages/Dashboard';
 import Article from './pages/Article';
+import Article2 from './pages/Article2';
+import Article3 from './pages/Article3';
 import Waitingroom from './pages/Waitingroom';
 import Debateroom1 from './pages/Debateroom1';
 import Debateroom2 from './pages/Debateroom2';
@@ -29,6 +31,12 @@ function App() {
       </Route>
       <Route path="/article">
         <Article/>
+      </Route>
+      <Route path="/article2">
+        <Article2/>
+      </Route>
+      <Route path="/article3">
+        <Article3/>
       </Route>
       <Route path="/waitingroom">
         <Waitingroom/>

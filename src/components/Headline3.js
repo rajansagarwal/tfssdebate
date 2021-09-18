@@ -30,8 +30,8 @@ class Headline3 extends Component {
 </CountUp>
         
     </div>
-    <Link to="/" className="read">Learn About Diplomatica</Link>{"      "}
-        <Link to="/" className="read">Expand Profile</Link>
+    <Link to="/" className="read"><span className="read">Learn About Diplomatica</span></Link>{"      "}
+        <Link to="/" className="read"><span className="read">Expand Profile</span></Link>
     </div>
     );
   }

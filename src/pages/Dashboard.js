@@ -7,6 +7,7 @@ import Debatepath from '../components/Debatepath';
 import Stats from '../components/Stats';
 import Forecast from '../components/Forecast';
 import Custom from '../components/Custom';
+import Transition from '../components/Transition';
 import "../App.css";
 import './pages.css';
 
@@ -17,23 +18,21 @@ export default function Dashboard() {
       <Container>
         <header className="App-header">
           <Row>
-              <Col sm={9}>
-              <br/><h2 className="dashhead">Welcome, Rajan</h2>
-              Diplomatica is building a world of political scientists.<br/><br/>
+              <Col sm={12}>
+              <br/><h2 className="dashhead"><Transition/></h2>
+              Diplomatica is building a world of political scientists. Care to join?<br/><br/>
               </Col>
-              <Col sm={3}>
-              
-              </Col>
+
               <br/><br/>
           </Row>
           <Row>
-            <Col sm={3} className="">
+            <Col sm={4} className="">
             <Headline/>
             </Col>
-            <Col sm={3} className="">
+            <Col sm={4} className="">
             <Headline2/>
             </Col>
-            <Col sm={6} className="">
+            <Col sm={4} className="">
             <Headline3/>
             </Col>
           </Row>

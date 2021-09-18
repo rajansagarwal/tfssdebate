@@ -9,7 +9,7 @@ class Forecast extends Component {
     return (
         <div className="custom">
         <b className="debatenowhead"><Link to='/'>Visualize Global Politics</Link></b><span role="img" aria-label="emoji"> ⚖️</span>
-        <p className='yomama'><span className="headlinemeta">Data Visualization for the current global, poltiical, geographic and social state. </span></p>
+        <p className='yomama'><span className="headlinemeta">Data Visualization for the current geographic, poltical, geographic and social state. </span></p>
         <Link to="/visualize" className="waitingroom">Try It Out!</Link>
     </div>
     );

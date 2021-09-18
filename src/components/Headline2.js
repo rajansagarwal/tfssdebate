@@ -7,11 +7,11 @@ import {
 class Headline2 extends Component {
   render() {
     return (
-        <div className="headline">
-        <b>Headline</b>
-        <p className='yomama'><span className="headlinemeta">Headline meta content</span></p>
-        <Link to="/article" className="read">Read AI Summary.</Link>
-    </div>
+<div className="headline">
+      <div className="thisthis">Vaccine Passport Details</div>
+      <p className="metameta"><span className="metameta">New details have rolled out, stay informed.</span></p>
+      <Link to="/article2" className="read">Read AI Summary.</Link>
+  </div>
     );
   }
 }

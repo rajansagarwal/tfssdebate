@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import "../App.css";
 import './pages.css';
 
-export default function Article() {
+export default function Article2() {
   return (
     <div className="App">
 
@@ -13,14 +13,14 @@ export default function Article() {
           <Row>
           <Col sm={12} className="landingheader">
             <br/>
-            <h2 className="explorehead">Last Minute Voter's Guide</h2>
-            <p className="center">Source: <a href="https://globalnews.ca/news/8188343/2021-canada-election-cheat-sheet/">Global News</a>, Summarized by AI</p>
+            <h2 className="explorehead">New Details About Vaccine Passports</h2>
+            <p className="center">Source: <a href="https://www.cbc.ca/news/canada/toronto/ontario-covid-19-cases-data-september-14-1.6174855/">CBC</a>, Summarized By AI</p>
             
           </Col>
           </Row>
           <Row>
             <Col sm={12} className="">
-                <p className="articletext">Still undecided about which federal party for whom you should cast your vote? Here’s everything you need to know before the 2021 federal election on Sept. 20. The NDP promised to include pharmacare in the health-care system, while the Greens said they would do the same and include universal dental care. The Liberals promised to extend the Canada Recovery Hiring Benefit (CRHB) and boost the tourism industry with a temporary wage and rent support. The NDP and Liberals promised to end “renovictions,” while the Greens said they would declare a moratorium on evictions.
+                <p className="articletext">Ontario officials have released more guidance on the implementation of the province's proof-of-vaccination system, which comes into effect on Sept. 22. The vaccine certificate system will cover "higher-risk" indoor spaces where masks can't be worn at all times, officials say. The province has amended its list to apply to the following settings: Restaurants and Bars, Nightclubs, Banquet Halls, Sporting Events, Casinos, Concerts. Ontario also reported 577 new COVID-19 cases on Tuesday and seven more deaths. Of the new cases, 452 are among individuals who have either not been fully vaccinated or whose vaccination status is unknown.
 <br/>
 <br/>
 <Row>
